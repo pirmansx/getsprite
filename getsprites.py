@@ -11,7 +11,7 @@ index = 0
 
 print(img.mode)
 if(img.mode != "RGBA"):
-	img.convert("RGBA")
+	img = img.convert("RGBA")
 	print("converted to RGBA")
 
 def in_range(n,x):
